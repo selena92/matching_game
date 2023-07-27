@@ -16,7 +16,7 @@ body {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  perspective: 500px;
+  perspective: 1000px;
 }
 
 .memory-card {
@@ -44,6 +44,7 @@ body {
   border-radius: 5px;
   background: #1C7CCC;
   backface-visibility: hidden;
+  mix-blend-mode: multiply;
 }
 
 .memory-card.flip {
